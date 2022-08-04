@@ -1,5 +1,5 @@
 import pandas as pd
-import NameToGender
+import GenderAPINameToGender
 
 
 def read_data():
@@ -15,7 +15,7 @@ def get_genders_for_name(df):
         new_data = pd.DataFrame({
             "first_name": [first_name],
             "last_name": [last_name],
-            "api_gender": [NameToGender.get_gender(first_name, last_name)]
+            "api_gender": [GenderAPINameToGender.get_gender(first_name, last_name)]
         })
         new_df = pd.concat([new_df, new_data])
 

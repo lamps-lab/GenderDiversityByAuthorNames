@@ -1,5 +1,5 @@
 import requests
-import Constants
+import GenderAPIConstants
 
 API_Key = Constants.API_Key
 

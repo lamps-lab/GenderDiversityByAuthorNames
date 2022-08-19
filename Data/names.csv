@@ -1,4 +1,0 @@
-"first_name","middle_name","last_name","full_name","gender","origin","api_accuracy","api_duration","gender_infered","api_name","api_samples","api_gender"
-"pierre","paul","grivel","pierre paul grivel","m","zbmath",99,"18ms","m","pierre-paul",76,"male"
-"raul","","serapioni","raul serapioni","m","zbmath",99,"36ms","m","raul",38362,"male"
-"ralf","","kieser","ralf kieser","m","zbmath",99,"51ms","m","ralf",9994,"male"

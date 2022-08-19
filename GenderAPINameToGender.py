@@ -19,7 +19,7 @@ def get_gender(firstname, lastname):
 
 
 def read_data():
-    df = pd.read_csv("Data/all_gender_api.csv", usecols=["first_name", "last_name"])
+    df = pd.read_csv("Data/raw_data/all.csv", usecols=["first_name", "last_name"])
     return df
 
 

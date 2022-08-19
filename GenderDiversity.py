@@ -1,14 +1,3 @@
-# I think we can use a diversity indicator, which looks like the cross entropy metric.
-#
-# H=-(p x logp + (1-p)log(1-p))
-#
-# The log base is 2.
-#
-# The idea is that when p=0 or 1, H=0, meaning that there is no diversity.
-# When p=0.5, H=1, when the diversity reaches the max.
-#
-# p is the proportion of male authors of a paper.
-
 import pandas as pd
 from scipy.stats import entropy
 

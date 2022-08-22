@@ -19,7 +19,6 @@ _H=-(p x log p + (1-p)log(1-p))_
 
 * _The log base is 2._
 * _When p=0 or 1, H=0, meaning that there is no diversity. When p=0.5, H=1, when the diversity reaches the max._
-* _p is the proportion of male authors of a paper._
 
 ## Instructions
 
